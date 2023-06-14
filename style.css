@@ -2,10 +2,6 @@
   font-family: "SF-Pro Display";
   src: url("./res/font/SF-Pro.ttf") format("ttf");
 }
-
-body {
-  font-family: "SF-Pro Display";
-}
 /*header*/
 header {
   display: flex;
@@ -13,20 +9,29 @@ header {
   margin: 1rem 1rem;
 }
 
+/* logo folio */
 .box {
   width: 40px;
   height: 40px;
   border-radius: 8px;
   background-color: #5468e7;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
 }
 
-.imagem {
+.a-2 {
   width: 28px;
   height: 28px;
 }
+
+.folio {
+  width: 75px;
+  height: 30px;
+  margin-left: 16px;
+}
+
+/* logo folio */
 
 .contact-button {
   width: 180px;
@@ -34,6 +39,80 @@ header {
   border-radius: 8px;
   background-color: #232340;
   color: white;
+  font-weight: 700;
+  font-size: 18px;
 }
 
+.recent-button {
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #5468e7;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+.list {
+  list-style: none;
+  display: grid;
+}
+.item {
+    padding: 15px;
+}
 /*header*/
+/*body*/
+body {
+  font-family: "SF-Pro Display";
+  position: relative;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.main-words {
+  font-size: 84px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: -1px;
+  color: #232340;
+  padding-left: 6%;
+  height: 300px;
+}
+/*body*/
+
+/* mobile */
+@media (max-width: 685px) {
+  /* ajuste header */
+  .box {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #5468e7;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .a-2 {
+    width: 22px;
+    height: 22px;
+  }
+
+  .folio {
+    width: 60px;
+    height: 24px;
+    margin-left: 11px;
+  }
+  /* ajuste header */
+
+  .contact-button {
+    display: none;
+  }
+  .list {
+    display: none;
+  }
+/* ajuste  */
+
+}
+/* mobile */
