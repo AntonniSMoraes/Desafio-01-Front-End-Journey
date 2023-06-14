@@ -1,6 +1,39 @@
+@font-face {
+  font-family: "SF-Pro Display";
+  src: url("./res/font/SF-Pro.ttf") format("ttf");
+}
+
+body {
+  font-family: "SF-Pro Display";
+}
 /*header*/
 header {
   display: flex;
   justify-content: space-between;
   margin: 1rem 1rem;
 }
+
+.box {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #5468e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem {
+  width: 28px;
+  height: 28px;
+}
+
+.contact-button {
+  width: 180px;
+  height: 64px;
+  border-radius: 8px;
+  background-color: #232340;
+  color: white;
+}
+
+/*header*/
