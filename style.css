@@ -2,14 +2,27 @@
   font-family: "SF-Pro Display";
   src: url("./res/font/SF-Pro.ttf") format("ttf");
 }
-/*header*/
+
+body {
+  font-family: "SF-Pro Display";
+  position: relative;
+  background-color: #ffffff;
+  display: inline-flexbox;
+  width: 1440px;
+  height: 1024px;
+  padding: 20px;
+}
+
+section {
+  display: flex;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   margin: 1rem 1rem;
 }
 
-/* logo folio */
 .box {
   width: 40px;
   height: 40px;
@@ -31,8 +44,6 @@ header {
   margin-left: 16px;
 }
 
-/* logo folio */
-
 .contact-button {
   width: 180px;
   height: 64px;
@@ -44,46 +55,43 @@ header {
 }
 
 .recent-button {
-    width: 180px;
-    height: 64px;
-    border-radius: 8px;
-    background-color: #5468e7;
-    color: white;
-    font-weight: 700;
-    font-size: 18px;
-  }
+  width: 180px;
+  height: 64px;
+  border-radius: 8px;
+  background-color: #5468e7;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
 
 .list {
   list-style: none;
   display: grid;
 }
+
 .item {
-    padding: 15px;
+  padding: 15px;
 }
-/*header*/
-/*body*/
-body {
-  font-family: "SF-Pro Display";
-  position: relative;
-  background-color: #ffffff;
-  padding: 20px;
+
+.pc-image {
+  width: 924px;
+  height: 660px;
+  position:relative;
+  left: 5%;
 }
 
 .main-words {
   font-size: 84px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 100px;
-  letter-spacing: -1px;
   color: #232340;
   padding-left: 6%;
-  height: 300px;
 }
-/*body*/
 
-/* mobile */
-@media (max-width: 685px) {
-  /* ajuste header */
+@media (max-width: 725px) {
+  body {
+    width: 375px;
+  }
+
   .box {
     width: 32px;
     height: 32px;
@@ -104,15 +112,22 @@ body {
     height: 24px;
     margin-left: 11px;
   }
-  /* ajuste header */
 
   .contact-button {
     display: none;
   }
+
   .list {
     display: none;
   }
-/* ajuste  */
 
+  .pc-image {
+    width: 624px;
+    height: 360px;
+    position:absolute;
+  }
+
+  .main-words {
+    font-size: 48px;
+  }
 }
-/* mobile */
