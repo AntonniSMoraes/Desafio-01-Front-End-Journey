@@ -14,6 +14,11 @@ a {
   font-size: 18px;
 }
 
+.justify-center {
+  justify-content: center;
+  align-items: center;
+}
+
 .a-2 {
   width: 22px;
   height: 22px;
@@ -21,8 +26,6 @@ a {
 
 .box {
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
   width: 32px;
   height: 32px;
   background-color: #5468e7;
@@ -147,8 +150,6 @@ a {
 .arrow-box {
   width: 48px;
   height: 48px;
-  justify-content: center;
-  align-items: center;
   border-radius: 100px;
   background-color: #5468e7;
   border: none;
@@ -169,7 +170,7 @@ a {
   width: 585px;
   height: 400px;
   margin-left: -120px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .second-pg-content {
@@ -199,8 +200,6 @@ a {
   background-color: #5468e7;
   border: none;
   border-radius: 8px;
-  align-items: center;
-  justify-content: center;
   font-size: 16px;
   line-height: 22px;
   font-style: normal;
@@ -215,8 +214,6 @@ a {
   width: 310px;
   height: 310px;
   border-radius: 100%;
-  justify-content: center;
-  align-items: center;
   background-color: #232340;
   box-shadow: 0 0 20px #323259;
   text-align: center;
@@ -232,9 +229,45 @@ a {
   line-height: 24px;
 }
 
-.year-left{
+.year-left {
   display: none;
 }
+
+.third-pg-box {
+  background: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 0.0001) 0%,
+    rgba(237, 229, 240, 0.504289) 100%
+  );
+    height: 2419px; 
+}
+
+.nav-next-pg {
+  padding-top: 10%;
+  padding-left: 5%;
+}
+
+.what-we-do {
+  display: inline-flex;
+  padding-top: 10%;
+  padding-left: 5%;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5468E7;
+}
+
+.we-make-two {
+  padding-left: 5%;
+  font-size: 40px;
+  line-height: 48px;
+  color: #232340;
+}
+
+.bg-cards {
+  width: 311px;
+  height: 244px;
+}
+
 
 @media (min-width: 750px) {
   header {
@@ -282,8 +315,6 @@ a {
     background-color: #232340;
     border: none;
     border-radius: 8px;
-    align-items: center;
-    justify-content: center;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -324,8 +355,6 @@ a {
   }
 
   .second-pg-box {
-    /* margin-top: 20%; */
-    width: 100vw;
     height: 1670px;
   }
 
@@ -347,10 +376,6 @@ a {
     font-size: 64px;
     line-height: 72px;
     letter-spacing: -0.5px;
-  }
-
-  .arrow {
-    /* padding-top: 25%; */
   }
 
   .arrow-box {
@@ -411,8 +436,8 @@ a {
     font-size: 24px;
     line-height: 32px;
   }
-  
-  .year-left{
+
+  .year-left {
     width: 45px;
     height: 500px;
     color: white;
@@ -422,7 +447,11 @@ a {
     flex-direction: column;
     justify-content: space-between;
     display: flex;
-    margin-top: -1360px;
-    margin-left: 5%;
+    margin-top: -1060px;
+    margin-left: 4%;
+  }
+
+  .third-pg-box {
+    height: 1990px;
   }
 }
