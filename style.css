@@ -52,6 +52,7 @@ a {
 .burger {
   background-color: transparent;
   border: none;
+  margin-right: 10%;
 }
 
 .contact-us {
@@ -106,15 +107,30 @@ a {
 
 .second-pg-box {
   margin-top: 20%;
-  margin-left: -8px;
+  margin-left: -8%;
   width: 100vw;
   height: 1681px;
   color: white;
   font-family: "Arial";
   background-color: #232340;
+  padding-top: 15%;
+  padding-left: 10%;
+}
+
+.second-pg-nav-box {
+  display: inline-flex;
+  font-size: 14px;
+  padding-left: 7%;
+}
+
+.box-second {
+  display: none;
 }
 
 .we-make {
+  padding-top: 6%;
+  margin-left: -35%;
+  margin-bottom: 4%;
   width: 226px;
   height: 192px;
   font-size: 38px;
@@ -124,7 +140,8 @@ a {
 }
 
 .arrow {
-  transform: scaleX(-1);
+  display: inline-flex;
+  padding-left: 5%;
 }
 
 .arrow-box {
@@ -139,7 +156,6 @@ a {
 }
 
 .year-button {
-  margin-left: 15%;
   width: 144px;
   height: 48px;
   border-radius: 8px;
@@ -152,12 +168,13 @@ a {
 .group-147 {
   width: 585px;
   height: 400px;
-  margin-left: -37%;
-  margin-top: 20%;
+  margin-left: -120px;
+  margin-top: 20px;
 }
 
 .second-pg-content {
   padding-top: 10%;
+  padding-left: 4%;
   width: 311px;
   height: 112px;
 }
@@ -193,7 +210,8 @@ a {
 
 .ball-content {
   display: flex;
-  margin-top: 20%;
+  margin-top: 320px;
+  margin-left: 4%;
   width: 310px;
   height: 310px;
   border-radius: 100%;
@@ -202,6 +220,20 @@ a {
   background-color: #232340;
   box-shadow: 0 0 20px #323259;
   text-align: center;
+}
+
+.ball-font-a {
+  font-size: 140px;
+  line-height: 167px;
+}
+
+.ball-font-b {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.year-left{
+  display: none;
 }
 
 @media (min-width: 750px) {
@@ -246,6 +278,7 @@ a {
     display: block;
     width: 180px;
     height: 64px;
+    margin-right: 4%;
     background-color: #232340;
     border: none;
     border-radius: 8px;
@@ -291,12 +324,24 @@ a {
   }
 
   .second-pg-box {
-    margin-top: 20%;
+    /* margin-top: 20%; */
     width: 100vw;
     height: 1670px;
   }
 
+  .second-pg-content {
+    width: 868px;
+    height: 192px;
+  }
+
+  .box-second {
+    display: flex;
+    margin-right: 13%;
+  }
+
   .we-make {
+    padding-top: 0%;
+    margin-left: -15%;
     width: 668px;
     height: 144px;
     font-size: 64px;
@@ -305,44 +350,41 @@ a {
   }
 
   .arrow {
+    /* padding-top: 25%; */
   }
 
   .arrow-box {
     width: 48px;
     height: 48px;
-    margin-left: 2%;
   }
 
   .year-button {
-    margin-left: 15%;
-    width: 144px;
-    height: 48px;
-    font-size: 12px;
+    display: none;
   }
 
   .group-147 {
-    width: 970px;
-    height: 530px;
-    margin-left: -37%;
-    margin-top: 20%;
+    width: 900px;
+    height: 580px;
+    margin-top: 2%;
+    padding-left: 370px;
   }
 
   .second-pg-content {
     padding-top: 10%;
-    width: 311px;
-    height: 112px;
+    padding-left: 18%;
+    width: 468px;
+    height: 320px;
   }
 
   .content-a {
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: -0.2px;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
   }
 
   .content-b {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 32px;
   }
 
   .contact-us-second {
@@ -353,7 +395,34 @@ a {
   }
 
   .ball-content {
+    margin-top: -25%;
+    margin-left: 50%;
+    box-shadow: none;
     width: 402px;
     height: 402px;
+  }
+
+  .ball-font-a {
+    font-size: 200px;
+    line-height: 239px;
+  }
+
+  .ball-font-b {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  
+  .year-left{
+    width: 45px;
+    height: 500px;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    margin-top: -1360px;
+    margin-left: 5%;
   }
 }
