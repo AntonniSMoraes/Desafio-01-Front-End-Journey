@@ -5,7 +5,7 @@
     <title>Teste</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body style="width: 100%">
+  <body style="overflow-x: hidden">
     <header>
       <nav class="nav">
         <div>
@@ -50,7 +50,7 @@
       </div>
     </section>
     <!-- 2 -->
-    <section class="second-pg-box">
+    <section class="second-pg-box" id="About">
       <div style="display: inline">
         <nav class="nav-box">
           <div class="box box-second justify-center">
@@ -62,7 +62,7 @@
           </div>
           <p style="color: #adadad">01.</p>
           <p style="margin-left: 20px">Who We Are</p>
-          <p class="we-make">We Make Designs that Lead and Inspire./p>
+          <p class="we-make">We Make Designs that Lead and Inspire.</p>
         </nav>
       </div>
       <div class="arrow">
@@ -111,7 +111,7 @@
       </nav>
     </section>
     <!-- 3 -->
-    <section class="third-pg-box">
+    <section class="third-pg-box" id="Work">
       <nav class="nav nav-next-pg nav-rule">
         <div>
           <div class="box justify-center">
@@ -136,9 +136,7 @@
         <div>
           <p class="what-we-do">02.</p>
           <p class="we-do">What We Do</p>
-          <p class="we-make-two">
-            We Make Designs that Lead and Inspire.
-          </p>
+          <p class="we-make-two">We Make Designs that Lead and Inspire.</p>
         </div>
       </nav>
       <div class="div-third-pg">
@@ -185,7 +183,7 @@
       </div>
     </section>
     <!-- 4 -->
-    <section class="fourth-pg-box">
+    <section class="fourth-pg-box" id="Services">
       <nav class="nav nav-next-pg nav-rule">
         <div>
           <div class="box justify-center">
@@ -207,21 +205,22 @@
           />
         </div>
         <div>
-          <p class="what-we-do">03.</p>
-          <p class="we-do correct">Famous Projects</p>
-          <p class="our-partnership">
-            Our Partnerships
-          </p>
+          <p class="what-we-do correct-left">03.</p>
+          <p class="we-do correct-top">Famous Projects</p>
+          <p class="our-partnership">Our Partnerships</p>
         </div>
+        <button class="contact-us-third justify-center">
+          <b>Contact Us</b>
+        </button>
       </nav>
-      <div>
-        <p class="sec-let sec-let-two">
-          Agency is a full-service agency, busy designing and building beautiful
-          digital products, brands, and experiences.
-        </p>
+      <p class="sec-let sec-let-two" style="font-family: 'SF Pro'">
+        Agency is a full-service agency, busy designing and building beautiful
+        digital products, brands, and experiences.
+      </p>
+      <div class="ocult-cards">
         <div
           class="bg-cards bg-cards-two"
-          style="background-color: #ffba79;"
+          style="background-color: #ffba79; margin-top: -30%"
         >
           <img src="./res/image/Female Running.png" />
         </div>
@@ -300,10 +299,81 @@
           <b>Contact Us</b>
         </button>
       </div>
+      <div class="ocult-cards-mobile" style="margin-top: 10%">
+        <button class="featured">Featured Products</button>
+        <h4 class="sapiens-let">Sapiens: The Free Character Builder App.</h4>
+        <p class="beautiful-lib">
+          Beautiful library of modular, component-based character illustrations
+          free to use for all your personal or client projects.
+        </p>
+        <!-- quadro 1 -->
+        <img
+          src="./res/image/Female Running 2.png"
+          class="background-image"
+          alt="Imagem de trás"
+        />
+        <div class="partnership-card-1">
+          <img
+            src="./res/image/Female Running.png"
+            style="width: 520px; height: 520px"
+            alt="Imagem da frente"
+          />
+        </div>
+        <!-- quadro 2 -->
+        <h4 class="bento-vol">Bento Vol.2</h4>
+        <div class="partnership-card-2">
+          <img
+            src="./res/image/[ 4 ] – Main.png"
+            style="
+              margin-left: -60%;
+              margin-top: -15%;
+              width: 500px;
+              height: 500px;
+            "
+          />
+        </div>
+        <p class="agency-qd2">
+          Agency is a full-service agency, busy designing and building beautiful
+          digital products, brands, and experiences.
+        </p>
+        <!-- quadro 3 -->
+        <h4 class="bento-vol" style="margin-left: 6%; margin-top: -25%">
+          Bento 3D Illustration
+        </h4>
+        <div class="partnership-card-3">
+          <img src="./res/image/[ 4 ] – Tablet.png" />
+        </div>
+        <p class="agency-qd2" style="margin-left: 6%; margin-top: 2%">
+          Agency is a full-service agency, busy designing and building beautiful
+          digital products, brands, and experiences.
+        </p>
+        <!-- quadro 4 -->
+        <h4 class="bento-vol" style="margin-left: 50%; margin-top: -0%">
+          Bento Vol.3
+        </h4>
+        <div class="partnership-card-4">
+          <img src="./res/image/[ 2 ] – Tablet.png" />
+        </div>
+        <p class="agency-qd2" style="margin-left: 50%; margin-top: 2%">
+          Agency is a full-service agency, busy designing and building beautiful
+          digital products, brands, and experiences.
+        </p>
+        <!-- quadro 5 -->
+        <h4 class="bento-vol" style="margin-left: 6%; margin-top: -30%">
+          Sapiens: Man
+        </h4>
+        <div class="partnership-card-5">
+          <img src="./res/image/Male Walking.png" />
+        </div>
+        <p class="agency-qd2" style="margin-left: 6%; margin-top: 2%">
+          Agency is a full-service agency, busy designing and building beautiful
+          digital products, brands, and experiences.
+        </p>
+      </div>
     </section>
     <!-- 5 -->
-    <section class="fifth-pg-box">
-      <nav class="nav nav-next-pg">
+    <section class="fifth-pg-box" id="Jobs">
+      <nav class="nav nav-next-pg nav-rule">
         <div>
           <div class="box justify-center">
             <image src="./res/image/a-2.svg" class="a-2" />
@@ -315,44 +385,61 @@
           <image src="./res/image/burger icon.png" />
         </button>
       </nav>
-      <div>
-        <p class="what-we-do"><b>04.</b></p>
-        <p class="what-we-do"><b>We are hiring</b></p>
-        <p class="we-make-two"><b>Jobs</b></p>
-      </div>
-      <p class="sec-let sec-let-two">
+      <nav class="nav-box" style="display: flex">
+        <div class="box box-second justify-center" style="margin-top: 5.5%">
+          <image
+            src="./res/image/a-2.svg"
+            class="a-2"
+            style="width: 16px; height: 16px"
+          />
+        </div>
+        <div>
+          <p class="what-we-do correct-left" style="margin-top: 80px">04.</p>
+          <p class="hiring correct-top">We are hiring</p>
+          <p class="our-partnership">Jobs</p>
+        </div>
+      </nav>
+      <p class="sec-let ag-4">
         Agency is a full-service agency, busy designing and building beautiful
         digital products, brands, and experiences.
       </p>
-      <ul class="list-pg-five">
-        <li class="bg-cards bg-cards-three">
-          <p class="content-a">
-            <b>Graphic Designer</b>
-          </p>
-        </li>
-        <li
-          class="bg-cards bg-cards-three"
-          style="background-color: #232340; color: white"
-        >
-          <p class="content-a">
-            <b>Visual Designer</b>
-          </p>
-        </li>
-        <li class="bg-cards bg-cards-three">
-          <p class="content-a">
-            <b>Art Director</b>
-          </p>
-        </li>
-        <li class="bg-cards bg-cards-three">
-          <p class="content-a">
-            <b>Web Designer</b>
-          </p>
-        </li>
-      </ul>
+      <div class="hiring-cards">
+        <ul class="list-pg-five">
+          <li class="jobs-cards">
+            <div class="content-a"><b>Graphic Designer</b></div>
+            <div class="content-b">2 Years experience</div>
+          </li>
+          <li
+            class="jobs-cards"
+            style="background-color: #232340; color: white"
+          >
+            <div class="content-a">
+              <b>Visual Designer</b>
+            </div>
+            <div class="content-b">2 Years experience</div>
+          </li>
+          <li class="jobs-cards">
+            <div class="content-a">
+              <b>Art Director</b>
+            </div>
+            <div class="content-b">2 Years experience</div>
+          </li>
+          <li class="jobs-cards">
+            <div class="content-a">
+              <b>Web Designer</b>
+            </div>
+            <div class="content-b">2 Years experience</div>
+          </li>
+        </ul>
+      </div>
+      <div class="arrow-box-purple">
+        <img src="./res/image/setabranca.png" />
+      </div>
+      <p class="av-jobs">Available jobs</p>
     </section>
     <!-- 6 -->
     <section class="sixth-pg-box">
-      <nav class="nav nav-next-pg">
+      <nav class="nav nav-next-pg nav-rule">
         <div>
           <div class="box justify-center">
             <image src="./res/image/a-2.svg" class="a-2" />
@@ -364,9 +451,55 @@
           <image src="./res/image/burger icon.png" />
         </button>
       </nav>
-      <div class="bg-cards bg-big">
-        <img src="./res/image/SpeachBubble V2.svg" style="margin-top: -100%" />
+      <div
+        class="ocult-cards"
+        style="justify-content: center; align-items: center"
+      >
+        <div class="bg-cards bg-big">
+          <img src="./res/image/SpeachBubble V2.svg" class="speech-bubble" />
+          <img src="./res/image/hello.png" class="hello" />
+          <div>
+            <p class="divisoria-a"></p>
+            <p class="divisoria-c"></p>
+          </div>
+          <p class="say-hello">Say hello.</p>
+        </div>
+        <p class="a-design">
+          A design team building a curated marketplace for UI designers.
+        </p>
+        <p class="lets-talk">Let’s talk about your next project</p>
+        <div>
+          <button class="last-button">Contact Us</button>
+        </div>
       </div>
+      <div class="ocult-cards-mobile">
+        <div>
+          <div class="box-final">
+            <img
+              class="image-center"
+              src="./res/image/SpeachBubble V2.svg"
+              alt="Imagem 1"
+            />
+            <img
+              class="image-below"
+              src="./res/image/hello.png"
+              alt="Imagem 2"
+            />
+            <p class="text-next-to-image">Say hello.</p>
+            <div class="line-horizontal"></div>
+            <div class="line-vertical"></div>
+            <p class="text-bubble" style="top: 30%; left: 35%; width: 568px">
+              A design team building a curated marketplace for UI designers.
+            </p>
+            <p class="text-bubble" style="width: 367px">
+              Invest in your designs today!
+            </p>
+            <p class="text-below">Let's talk about your next project</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="foot">
       <nav class="nav nav-next-pg" style="justify-content: center">
         <div style="margin-left: -10%">
           <div class="box justify-center">
@@ -376,10 +509,83 @@
           <image src="./res/image/Rectangle.svg" class="rect" />
         </div>
       </nav>
-      <div class="home-box">
-        <p style="margin-left: 20px">Home</p>
+      <div>
+        <p class="last-words-mob">
+          Agency is a full-service agency, busy designing and building.
+        </p>
+        <p class="last-words">
+          Agency is a full-service agency, busy designing and building beautiful
+          digital products, brands, and experiences.
+        </p>
+        <ul class="list" style="margin-left: 30%; margin-top: 5%">
+          <li>
+            <a href="#About" class="item">About</a>
+          </li>
+          <li>
+            <a href="#Work" class="item">Work</a>
+          </li>
+          <li>
+            <a href="#Services" class="item">Services</a>
+          </li>
+          <li>
+            <a href="#Jobs" class="item">Jobs</a>
+          </li>
+        </ul>
       </div>
-      <p style="margin-left: 20px">© 2020, UI8 LLC.</p>
-    </section>
+      <div class="home-box">
+        <img
+          src="./res/image/arrowB.png"
+          style="margin-left: 90%; margin-top: 24px"
+        />
+        <p style="margin-left: 20px; margin-top: -5%">Home</p>
+      </div>
+      <div class="social-media">
+        <div
+          style="
+            display: flex;
+            margin-right: 15px;
+            width: 40px;
+            height: 40px;
+            background-color: #5468e7;
+            border-radius: 100%;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <img src="./res/image/Path.png" />
+        </div>
+        <div
+          style="
+            display: flex;
+            margin-right: 15px;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #d8d8d8;
+            background-color: white;
+            border-radius: 100%;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <img src="./res/image/Shape.png" />
+        </div>
+        <div
+          style="
+            display: flex;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #d8d8d8;
+            background-color: white;
+            border-radius: 100%;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <img src="./res/image/Shape-1.png" />
+        </div>
+      </div>
+      <p class="divisoria-b"></p>
+      <p class="rights">© 2020, UI8 LLC.</p>
+    </footer>
   </body>
 </html>
