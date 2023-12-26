@@ -66,3 +66,22 @@ header a {
     color: white;
     align-self: end;
 }
+
+.section-one {
+    padding: 1rem;
+    font-family: 'Arial';
+    width: 311px;
+}
+
+.section-one h1 {
+    color: #232340;
+    font-size: 48px;
+    line-height: 56px;
+    padding-bottom: 2rem;
+}
+
+.section-one p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #606060;
+}
