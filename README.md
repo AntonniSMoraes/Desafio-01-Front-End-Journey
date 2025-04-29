@@ -1,4 +1,4 @@
-# Desafio01--Programa-de-Bolsa-React
+# Folio
 
 Este projeto foi desenvolvido como parte da trilha de aprendizado  oferecida pela Compass Uol de Front-end, com o objetivo de aplicar os conhecimentos adquiridos em Html e Css. A proposta consiste na criação de uma página responsiva para web e dispositivos móveis, seguindo o rascunho fornecido pelos instrutores.
 
@@ -15,7 +15,3 @@ Como executar o projeto
 
 ! - IMPORTANTE - !
 O arquivo pag.html necessita estar junto da pasta 'res' para perfeito funcionamento, pois, a mesma guarda seus recursos visuais.
-
-
-Autor
-Antonni S. Moraes
